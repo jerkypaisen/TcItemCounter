@@ -37,7 +37,7 @@ namespace Oxide.Plugins
             if (arg.Connection == null || (arg.Connection != null && arg.Connection.authLevel == 2))
             {
                 TextTable textTable = new TextTable();
-                textTable.AddColumns("OwnerName(SteamID)", "TotalTags");
+                textTable.AddColumns("OwnerName(SteamID)", "Total");
                 Dictionary<string, int> scoreDic = new Dictionary<string, int>();
                 foreach (BuildingPrivlidge item in BaseNetworkable.serverEntities.OfType<BuildingPrivlidge>())
                 {
@@ -78,7 +78,7 @@ namespace Oxide.Plugins
             if (arg.Connection == null || (arg.Connection != null && arg.Connection.authLevel == 2))
             {
                 TextTable textTable = new TextTable();
-                textTable.AddColumns("TeamLeaderName(SteamID)", "TotalTags");
+                textTable.AddColumns("TeamLeaderName(SteamID)", "Total");
                 Dictionary<string, int> scoreDic = new Dictionary<string, int>();
                 foreach (BuildingPrivlidge item in BaseNetworkable.serverEntities.OfType<BuildingPrivlidge>())
                 {
