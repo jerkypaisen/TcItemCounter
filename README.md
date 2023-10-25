@@ -1,6 +1,7 @@
 # TcItemCounter
 You can count the specified item in TC.
 （TCの中の特定のアイテムを集計します。）
+![image](https://github.com/jerkypaisen/TcItemCounter/assets/136916794/60229300-4938-47ae-ab49-e512a15c682b)
 
 # How to use
 1.Please enter the item shortname you want to aggregate in the configuration file.
