@@ -10,8 +10,8 @@ ShortName List
 https://www.corrosionhour.com/rust-items-database/
 
 
-2.Open the F1 console and enter a "tic" command.
-（F1コンソールを開いて、ticコマンドを入力してください。）
+2.Open the F1 console and enter a "tic" command. only be executed by an administrator.
+（F1コンソールを開いて、ticコマンドを入力してください。実行できるのは管理者のみです。）
 
 
 
